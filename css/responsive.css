@@ -14,20 +14,26 @@
         max-width: 20%;
     }
 
-    .skills
-    {
+    .skills {
         display: flex;
         justify-content: space-between;
     }
 
-    h3, h2
-    {
+    h3,
+    h2 {
         margin-top: 2.5%;
         margin-bottom: 2.5%;
     }
 
-    nav p
-{
-    display: flex;    
-}
+    nav p {
+        display: flex;
+    }
+
+    #second-section a:hover, a:hover
+    {
+        color: #D25710;
+        transition: 0.5s;
+
+        transition: 0.5s
+    }
 }

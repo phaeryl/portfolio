@@ -9,6 +9,8 @@ function loadHtmlContent(page) {
     }
     xhttp.open("GET", page + ".html");
     xhttp.send();
+
+ 
   }
 
 
