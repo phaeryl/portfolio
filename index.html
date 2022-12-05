@@ -17,29 +17,56 @@
 </head>
 
 <body>
+    <nav>
+        <div class="container-link">
+            <a href="#" onclick="loadHtmlContent('landing')">
+                <i class="fa-sharp fa-solid fa-house"></i>
+                <p>Accueil</p>
+            </a>
+        </div>
+
+        <div class="container-link">
+            <a href="#" onclick="loadHtmlContent('projects')">
+                <i class="fa-solid fa-briefcase"></i>
+                <p>Projets</p>
+            </a>
+        </div>
+
+        <div class="container-link">
+            <a href="#" onclick="loadHtmlContent('projects')">
+                <i class="fa-solid fa-address-card"></i>
+                <p>À propos</p>
+            </a>
+        </div>
+    </nav>
+
+
+
+
     <div id="container">
+
         <div class="container-sections">
             <section id="first-section">
                 <h1>Florian Arnaud</h1>
                 <p>Développeur web Full-Stack</p>
             </section>
 
-            <nav id="second-section">
-                <a onclick="loadHtmlContent('projects.html')" href="#" class="nav-link">Projets</a>
-                <a onclick="loadHtmlContent('about.html')" href="#" class="nav-link">A Propos</a>
-            </nav>
+            <section id="second-section">
+                <a onclick="loadHtmlContent('projects')" href="#" class="nav-link">Projets</a>
+                <a onclick="loadHtmlContent('about')" href="#" class="nav-link">A Propos</a>
+            </section>
         </div>
     </div>
 
     <div class="clear"></div>
 
     <footer>
+
         <div class="container-link">
             <a href="https://github.com/phaeryl" target="_blank">
                 <i class="fa-brands fa-github"></i>
                 <p>GitHub</p>
             </a>
-
         </div>
 
         <div class="container-link">
@@ -54,13 +81,6 @@
             <p>florian.arnaud2019@gmail.com</p>
         </div>
 
-        <div class="container-link">
-            <a href="#" onclick="loadHtmlContent('index.html')">
-                <i class="fa-sharp fa-solid fa-house"></i>
-                <p>Accueil</p>
-            </a>
-
-        </div>
     </footer>
 </body>
 

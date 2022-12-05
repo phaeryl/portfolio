@@ -31,16 +31,19 @@ footer a img, .nav-link img{
     width: 30px;
 }
 
-section,
-nav {
+section
+{
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 5%;
 
 }
 
-
-
+nav
+{
+    padding-left: 5%;
+    display: flex;
+}
 
 
 .nav-link {
