@@ -3,7 +3,6 @@ function loadHtmlContent(page) {
     xhttp.onload = function() {
       document.getElementById("container").innerHTML =
       this.responseText;
-      console.log(this.responseText);
 
     }
     xhttp.open("GET", page);
