@@ -83,14 +83,18 @@ section h1 {
     text-transform: uppercase;
 }
 
-h2, h3
+h2,h3
 {
-    margin-top: 2%;
     font-family: 'Merienda';
+}
+h3, h2
+{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 .date
 {
-    font-size: 0.75vw
+    font-size: 0.75em;
 }
 

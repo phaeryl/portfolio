@@ -1,22 +1,24 @@
-@media screen and (min-width: 992px)
-{
+@media screen and (min-width: 992px) {
 
-    .container-sections
-    {
+    .container-sections {
         flex-direction: row;
     }
-    .nav-link
-    {
+
+    .nav-link {
         font-size: 5vw;
 
     }
-    
-    #first-section
-{
-    align-self: center;
-    max-width: 20%;
-}
+
+    #first-section {
+        align-self: center;
+        max-width: 20%;
+    }
+
+    .skills
+    {
+        display: flex;
+        justify-content: space-between;
+    }
 
 
 }
-  
