@@ -26,8 +26,8 @@
         margin-bottom: 2.5%;
     }
 
-    .container-link p
+    nav p
 {
-    visibility: visible;
+    display: flex;    
 }
 }
