@@ -3,8 +3,6 @@
 body {
     background-color: #2e2e2e;
     color: #ece7e1d7;
-    font-family: 'Vesper Libre';
-
 }
 
 .container-link, .container-link a
@@ -30,7 +28,7 @@ footer {
     padding-left: 5%;
 }
 
-footer a img, .nav-link img{
+footer a img{
     width: 30px;
 }
 
@@ -50,7 +48,7 @@ nav
 }
 
 
-.nav-link {
+.section-link {
     padding: 0px;
     margin: 0px;
     font-family: 'Merienda';
